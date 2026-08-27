@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            
+        }
+        nav
+        {
+            background:darkcyan;
+            
+            padding: 25px;
+        }
+        nav a{
+        
+        color:whitesmoke;
+        font-size: 25px;
+        text-decoration: none;       
+        margin-left: 50px;     
+        }
+        .man{
+            height: 400px;
+            width: 400px;
+            border-radius:50%;
+            background-color:  blue;
+            color: whitesmoke;
+            margin-top: 10px;
+            margin-left: 75px;
+            text-align: justify;
+            
+        }
+        .container
+        {
+            height: 120px;
+            width: 800px;
+            background: blue;
+            border: 3px solid black;
+        }
+        .box{
+            margin-top: 5px;
+            margin-left: 10px;
+            color: black;
+            background: whitesmoke;
+            height: 100px;
+            width: 100px;
+            display: inline-block;
+            border: 2px solid black;
+        }
+        #box{
+            position: fixed;
+            right: 5px;
+
+        }
+        footer{
+            position: fixed;
+            bottom: 2px;
+            background-color: aquamarine;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+            <a href="#">Help</a>
+        </nav>
+       
+    </header>
+    <main>
+        <div class="man">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi aut ut aspernatur delectus distinctio sit exercitationem sunt dicta suscipit molestiae quae commodi vel aliquid quis rerum illo velit soluta, ipsum quaerat debitis laboriosam architecto. Provident laboriosam consequatur deleniti accusamus quas, aut labore! Doloribus earum laborum cum voluptates a corporis hic?
+            </p>
+        </div>
+        <div class="container">
+            <div id="box1" class="box">Box1</div>
+            <div id="box2" class="box">Box2</div>
+            <div id="box3" class="box">Box3</div>
+            <div id="box4" class="box">Box4</div>
+            <div id="box" class="box">Fixed Box</div>
+        </div>
+    </main>
+    <footer>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, soluta.</footer>
+</body>
+</html>

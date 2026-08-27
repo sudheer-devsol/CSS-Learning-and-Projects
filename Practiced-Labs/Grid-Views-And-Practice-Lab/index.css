@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: darkkhaki;
+}
+body {
+  background: cadetblue;
+}
+nav {
+  padding: 10px;
+  color: brown;
+  font-size: 20px;
+  background-color: chocolate;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav a {
+  text-decoration: none;
+}
+img {
+  height: 200px;
+  border: 2px solid black;
+}
+.contain {
+  border: solid black;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  height: 250px;
+  background: darkslategray;
+  border: 2px red solid;
+  justify-content: space-around;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  background: green;
+  border: 2px solid red;
+}
+#box2 {
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+.Media {
+  height: 200px;
+  width: 200px;
+  background: yellowgreen;
+  color: whitesmoke;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+#Media_Box {
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .Media{
+          background:red;
+          color: black;
+  }
+}
+@media screen and (min-width: 400px){
+  .Media{
+          background: blueviolet;
+          color: black;
+  }
+}
+.hoverProperty{
+  height: 35px;
+  width: 150px;
+  color: black;
+  font-size: 24px;
+  font-weight: 700px;
+  border-radius: 3px;
+  background: lightsalmon;
+
+
+}
+.hoverProperty:hover
+{
+  background: lightseagreen;
+  color: brown;
+}
+.hoverProperty:active
+{
+  background: lightseagreen;
+  background:  red;
+}
+
+.ScaleProperty{
+  margin-left: 100px;
+  height: 60px;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: aquamarine;
+}
+.ScaleProperty:hover{
+  background-color: chocolate;
+  transition: all 1s ease-in-out ;
+  transform: scale(1.5);
+}
+.Translate{
+  height: 50px;
+  width: 100px;
+  background-color: chartreuse;
+  border: none;
+  border-radius: 10px;
+}
+.Translate:hover{
+  background-color:brown;
+  transform: translate(50px, 50px);
+}
+.Translate:active{
+  background-color:green;
+  transform: translate(50px, 50px);
+}
+
+.Skew{
+  height: 50px;
+  width: 100px;
+  background-color: darkslategrey;
+  border: none;
+  border-radius: 10px;
+}
+.Skew:hover{
+  background-color:brown;
+  transform: skew(45deg);
+}
+.Skew:active{
+  background-color:green;
+  transform: translate(50px, 50px);
+}
