@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+		margin: 0;
+		padding: 0;
+		background: url('GYMimg.jpg');
+		background-repeat: no-repeat;
+}
+.header{
+	background-color: black;
+	width: 100%;
+	height: 150px;
+	padding: 20px;
+}
+.left{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	margin: 30px auto;
+}
+.left img{
+	height: 100px;
+	width: 120px;
+}
+.mid{
+	display: block;
+	background-color: gainsboro;
+	width: 40%;
+	margin: 30px auto;
+}
+.right{
+	display: inline-block;
+	background-color: chartreuse;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	margin: 30px auto;
+}
