@@ -1,0 +1,28 @@
+#Nav-bar{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#Home{
+    height: 300px;
+}
+.primary-txt {
+    font-size:1.5rem;
+    color: white;
+    padding: 12px 0px;
+}
+
+#Home p{
+    color: white;
+    font-size: .8rem;
+}
+
+#Catogories{
+    flex-wrap: wrap;
+}
+#Catogories .box{
+    padding: 20px 25px;
+    margin: 10px 5px;
+    background-color: rgb(173, 172, 172);
+    border-radius: 20px;
+    text-align: justify;
+}

@@ -1,0 +1,1645 @@
+/* css to reset all the designs */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* css to reset all the designs */
+
+/* add styles on elements */
+
+.header {
+    background-color: #20859b;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* display: none; */
+    box-shadow: 0 0 5px whitesmoke;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1.5rem;
+}
+
+.nav-logo img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    /* background-color: #101010; */
+    background-color: #fff;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-right: 5rem;
+}
+
+.nav-link {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: white;
+    /* change */
+}
+
+.nav-link:hover {
+    color: gold;
+}
+
+.nav-logo {
+    /* font-size: 2.1rem; */
+    font-size: 3rem;
+    font-weight: 500;
+    /* color: #482ff7; */
+    color: #fff;
+}
+
+.Welcome-Section .Container1 {
+    background-color: #1c7386;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.Welcome-Section .Container1 .left-box1 {
+    text-align: justify;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 50%;
+    padding-top: 5rem;
+    padding-left: 10rem;
+    padding-right: 0rem;
+}
+
+.Welcome-Section .Container1 .left-box1 .typer {
+    color: gold;
+    font-size: 3.5rem;
+    display: inline-block;
+
+}
+
+.Welcome-Section .Container1 .left-box1 h5 {
+    font-weight: 200;
+    display: inline-block;
+    font-size: 3.5rem;
+}
+
+.Welcome-Section .Container1 .left-box1 p {
+    /* line-height: 20px;
+    font-size: 1.6rem; */
+    text-align: justify;
+    line-height: 25px;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.btn {
+    margin: 1rem 0rem;
+    width: 100px;
+    padding: .7rem .8rem;
+    background: transparent;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: gold;
+    color: #222;
+}
+
+.Welcome-Section .Container1 .right-box1 {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Welcome-Section .Container1 .right-box1 img {
+    height: 55vh;
+    margin-top: 5rem;
+}
+
+.About-Section .Container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #176271;
+    height: 100vh;
+    width: 100%;
+}
+
+.About-Section .Container2 .About-top-img {
+    margin-top: 5.5rem;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #134f5c;
+}
+
+.About-Section .Container2 .About-top-img img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.About-Section .Container2 .About-top h1 {
+    font-weight: 100;
+    font-size: 3rem;
+    color: gold;
+    padding: 1.5rem;
+}
+
+.About-Section .Container2 .About-bottom {
+    width: 85%;
+}
+
+.About-Section .Container2 .About-bottom p {
+    text-align: justify;
+    line-height: 25px;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.Services_section .Container3 {
+    background-color: #134f5c;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.Services_section .Container3 .Service-section-top h1 {
+    font-weight: 100;
+    font-size: 3rem;
+    color: gold;
+    margin: 5rem;
+}
+
+.Services_section .Container3 .Service-section-bottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Services_section .Container3 .Service-section-bottom .Service-Box {
+    height: 50vh;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+    padding: 1.5rem 3rem;
+}
+
+.Services_section .Container3 .Service-section-bottom .Service-Box h1 {
+    font-weight: 100;
+    color: gold;
+    margin: 1.8rem;
+}
+
+.Services_section .Container3 .Service-section-bottom .Service-Box p {
+    font-weight: 100;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.Contact-section .Container4 {
+    height: 100vh;
+    width: 100%;
+    background-color: #0f3d47;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Contact-section .Container4 .Contact-section-top {
+    margin-top: 6rem;
+}
+
+.Contact-section .Container4 .Contact-section-top h1 {
+    font-weight: 100;
+    color: gold;
+    margin: 1.7rem;
+    font-size: 3rem;
+
+}
+
+.Contact-section .Container4 .Contact-section-bottom {
+    margin: 2rem;
+    border: 1px solid whitesmoke;
+    height: 60vh;
+    width: 80%;
+    display: flex;
+    border-radius: 10px;
+}
+
+.Contact-section .Container4 .Contact-section-bottom .left {
+    width: 50%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Contact-section .Container4 .Contact-section-bottom .left form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 5rem;
+    font-size: 1.5rem;
+}
+
+.Contact-section .Container4 .Contact-section-bottom .left form input {
+    padding: .7rem 1rem;
+    border-radius: 5px;
+    border: none;
+    margin: .7rem 0rem;
+    color: black;
+}
+
+.Contact-section .Container4 .Contact-section-bottom .left form textarea {
+    border-radius: 5px;
+    margin: .7rem 0rem;
+    height: 60px;
+    padding-left: 3px;
+    color: black;
+}
+
+.Contact-section .Container4 .Contact-section-bottom .right {
+    width: 50%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Contact-section .Container4 .Contact-section-bottom .right img {
+    height: 85%;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.Footer-section {
+    background-color: #0a2b32;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 30vh;
+    padding: 3rem;
+}
+
+.Footer-section .Media-Links {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Footer-section .Media-Links a {
+    text-decoration: none;
+}
+
+.Footer-section .Media-Links a i {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    margin: 20px;
+    color: whitesmoke;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.Footer-section .Media-Links a i:hover {
+    color: gold;
+}
+
+
+.Footer-section .Quick-Action-section ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.Footer-section .Quick-Action-section ul li a {
+    margin-left: 10px;
+}
+
+.Footer-section .CopyRight-Section p {
+    /* background-color: red; */
+    height: 70px;
+    width: 100%;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*================================Media Queries================================*/
+
+
+
+@media (max-width: 991px) {
+
+    .Welcome-Section .Container1 {
+        background-color: #1c7386;
+        height: 90vh;
+        width: 100%;
+        display: flex;
+    }
+
+    .Welcome-Section .Container1 .left-box1 {
+        text-align: justify;
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        flex-direction: column;
+        height: 90vh;
+        width: 50%;
+        padding-top: 7rem;
+        padding-left: 5rem;
+        padding-right: 0rem;
+    }
+
+    .Welcome-Section .Container1 .left-box1 .typer {
+        color: gold;
+        font-size: 3rem;
+        display: inline-block;
+
+    }
+
+    .Welcome-Section .Container1 .left-box1 h5 {
+        font-weight: 200;
+        display: inline-block;
+        font-size: 3rem;
+    }
+
+    .Welcome-Section .Container1 .left-box1 p {
+        margin: 10px 0px;
+        text-align: justify;
+        line-height: 22px;
+        font-size: 1.6rem;
+        font-weight: 100;
+    }
+
+    .btn {
+        margin: 1rem 0rem;
+        width: 100px;
+        padding: .7rem .8rem;
+        background: transparent;
+        border: 1px solid whitesmoke;
+        border-radius: 5px;
+    }
+
+    .btn:hover {
+        background-color: gold;
+        color: #222;
+    }
+
+    .Welcome-Section .Container1 .right-box1 {
+        width: 50%;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Welcome-Section .Container1 .right-box1 img {
+        height: 50vh;
+        margin-top: 6rem;
+    }
+
+    .About-Section .Container2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #176271;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .About-Section .Container2 .About-top-img {
+        margin-top: 5.5rem;
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        background-color: #134f5c;
+    }
+
+    .About-Section .Container2 .About-top-img img {
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+    }
+
+    .About-Section .Container2 .About-top h1 {
+        font-weight: 100;
+        font-size: 2.5rem;
+        color: gold;
+        padding: 1.5rem;
+    }
+
+    .About-Section .Container2 .About-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .About-Section .Container2 .About-bottom p {
+        text-align: justify;
+        line-height: 25px;
+        font-size: 1.5rem;
+        font-weight: 100;
+        width: 90%;
+    }
+
+    .Services_section .Container3 {
+        background-color: #134f5c;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .Services_section .Container3 .Service-section-top h1 {
+        font-weight: 100;
+        font-size: 3rem;
+        color: gold;
+        margin: 5rem;
+    }
+
+    .Services_section .Container3 .Service-section-bottom {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .Services_section .Container3 .Service-section-bottom .Service-Box {
+        height: 50vh;
+        width: 300px;
+        border: 1px solid white;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: justify;
+        padding: 1rem 3rem;
+    }
+
+    .Services_section .Container3 .Service-section-bottom .Service-Box h1 {
+        font-weight: 100;
+        color: gold;
+        margin: 1.2rem;
+    }
+
+    .Services_section .Container3 .Service-section-bottom .Service-Box p {
+        font-weight: 100;
+        font-size: 1.5rem;
+        margin: 1rem;
+        width: 100%;
+    }
+
+    .Contact-section .Container4 {
+        height: 100vh;
+        width: 100%;
+        background-color: #0f3d47;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Contact-section .Container4 .Contact-section-top {
+        margin-top: 6rem;
+    }
+
+    .Contact-section .Container4 .Contact-section-top h1 {
+        font-weight: 100;
+        color: gold;
+        margin: 1.7rem;
+        font-size: 3rem;
+
+    }
+
+    .Contact-section .Container4 .Contact-section-bottom {
+        margin: 2rem;
+        border: 1px solid whitesmoke;
+        height: 60vh;
+        width: 80%;
+        display: flex;
+        border-radius: 10px;
+    }
+
+    .Contact-section .Container4 .Contact-section-bottom .left {
+        width: 50%;
+        height: 100%;
+        /* background-color: green; */
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Contact-section .Container4 .Contact-section-bottom .left form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        flex-direction: column;
+        padding: 2rem 5rem;
+        font-size: 1.5rem;
+    }
+
+    .Contact-section .Container4 .Contact-section-bottom .left form input {
+        padding: .7rem 1rem;
+        border-radius: 5px;
+        border: none;
+        margin: .7rem 0rem;
+        color: black;
+    }
+
+    .Contact-section .Container4 .Contact-section-bottom .left form textarea {
+        border-radius: 5px;
+        margin: .7rem 0rem;
+        height: 60px;
+    }
+
+    .Contact-section .Container4 .Contact-section-bottom .right {
+        width: 50%;
+        height: 100%;
+        /* background-color: yellow; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .Contact-section .Container4 .Contact-section-bottom .right img {
+        height: 80%;
+        width: 90%;
+        border-radius: 10px;
+    }
+
+    .Footer-section {
+        background-color: #0a2b32;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 30vh;
+        padding: 3rem;
+    }
+
+    .Footer-section .Media-Links {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Footer-section .Media-Links a {
+        text-decoration: none;
+    }
+
+    .Footer-section .Media-Links a i {
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid whitesmoke;
+        border-radius: 50%;
+        margin: 20px;
+        color: whitesmoke;
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .Footer-section .Media-Links a i:hover {
+        color: gold;
+    }
+
+
+    .Footer-section .Quick-Action-section ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .Footer-section .Quick-Action-section ul li a {
+        margin-left: 10px;
+    }
+
+    .Footer-section .CopyRight-Section p {
+        /* background-color: red; */
+        height: 70px;
+        width: 100%;
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 9.5rem;
+        flex-direction: column;
+        background-color: #222;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        /* box-shadow: 0 10px 27px whitesmoke;/ */
+    }
+
+    .nav-link {
+        color: #fff;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+
+    .Welcome-Section .Container1 {
+        background-color: #1c7386;
+        height: 160vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Welcome-Section .Container1 .left-box1 {
+        text-align: justify;
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        flex-direction: column;
+        height: 60vh;
+        width: 100%;
+        padding-top: 15rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-bottom: 5rem;
+
+    }
+
+    .Welcome-Section .Container1 .left-box1 .typer {
+        color: gold;
+        font-size: 3rem;
+        display: inline-block;
+
+    }
+
+    .Welcome-Section .Container1 .left-box1 h5 {
+        font-weight: 200;
+        display: inline-block;
+        font-size: 3rem;
+    }
+
+    .Welcome-Section .Container1 .left-box1 p {
+        line-height: 25px;
+        font-size:2rem;
+        padding: 0;
+        margin-top: 10px;
+
+    }
+
+    .btn {
+        margin: 1rem 0rem;
+        width: 120px;
+        padding: .8rem .9rem;
+        background: transparent;
+        border: 1px solid whitesmoke;
+        border-radius: 5px;
+    }
+
+    .Welcome-Section .Container1 .right-box1 {
+        /* background-color: red; */
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+    }
+
+    .Welcome-Section .Container1 .right-box1 img {
+        width: 90%;
+        height: 100%;
+        margin-top: 0rem;
+    }
+
+    .About-Section .Container2 {
+        height: 100vh;
+        background-color: red;
+    }
+
+
+    .About-Section .Container2 .About-bottom {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .About-Section .Container2 .About-bottom p {
+        text-align: justify;
+        line-height: 25px;
+        font-size: 2rem;
+        width: 90%;
+    }
+
+
+    .Services_section .Container3 {
+        background-color: #134f5c;
+        height: 160vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Services_section .Container3 .Service-section-top h1 {
+        font-weight: 100;
+        font-size: 3rem;
+        color: gold;
+        margin-top: 10rem;
+    }
+
+    .Services_section .Container3 .Service-section-bottom {
+        width: 100%;
+        height: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Services_section .Container3 .Service-section-bottom .Service-Box {
+        height: 35vh;
+        width: 90%;
+        border: 1px solid white;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: justify;
+        padding: 1.5rem 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .Services_section .Container3 .Service-section-bottom .Service-Box p {
+        font-weight: 100;
+        font-size: 1.6rem;
+        margin-bottom: 1px;
+    }
+
+
+    .Contact-section .Container4 {
+        height: 160vh;
+        width: 100%;
+        background-color: #0f3d47;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Contact-section .Container4 .Contact-section-top {
+        margin-top: 3rem;
+    }
+
+    .Contact-section .Container4 .Contact-section-top h1 {
+        font-weight: 100;
+        color: gold;
+        margin: 1.7rem;
+        font-size: 3rem;
+
+    }
+
+    .Contact-section .Container4 .Contact-section-bottom {
+        margin: 2rem;
+        border: 1px solid whitesmoke;
+        height: 110vh;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+
+    .Contact-section .Container4 .Contact-section-bottom .left {
+        width: 100%;
+        height: 50%;
+        /* background-color: green; */
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Contact-section .Container4 .Contact-section-bottom .left form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        flex-direction: column;
+        padding: 2rem 5rem;
+        font-size: 1.5rem;
+    }
+
+    .Contact-section .Container4 .Contact-section-bottom .left form input {
+        padding: .7rem 1rem;
+        border-radius: 5px;
+        border: none;
+        margin: .7rem 0rem;
+        color: black;
+    }
+
+    .Contact-section .Container4 .Contact-section-bottom .left form textarea {
+        border-radius: 5px;
+        margin: .7rem 0rem;
+        height: 60px;
+    }
+
+    .Contact-section .Container4 .Contact-section-bottom .right {
+        width: 95%;
+        height: 50%;
+        /* background-color: yellow; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .Contact-section .Container4 .Contact-section-bottom .right img {
+        height: 85%;
+        width: 90%;
+        border-radius: 10px;
+    }
+
+
+}
+
+@media only screen and (max-width: 425px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 9.5rem;
+        flex-direction: column;
+        background-color: #222;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        /* box-shadow: 0 10px 27px whitesmoke;/ */
+    }
+
+    .nav-link {
+        color: #fff;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 1.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+
+    .Welcome-Section .Container1 {
+        background-color: #1c7386;
+        height: 150vh;
+        width: 150%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .Welcome-Section .Container1 .left-box1 {
+        text-align: justify;
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        flex-direction: column;
+        height: 80vh;
+        width: 100%;
+        padding-top: 20rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-bottom: 10rem;
+    }
+
+
+    .Welcome-Section .Container1 .left-box1 .typer {
+        color: gold;
+        font-size: 3rem;
+        display: inline-block;
+
+    }
+
+    .Welcome-Section .Container1 .left-box1 h5 {
+        font-weight: 200;
+        display: inline-block;
+        font-size: 3rem;
+    }
+
+    .Welcome-Section .Container1 .left-box1 p {
+        margin-top: 1.1rem;
+        line-height: 25px;
+        font-size: 1.7rem;
+    }
+
+    .btn {
+        margin: 1.1rem 0rem;
+        width: 100%;
+        padding: .9rem .9rem;
+        background: transparent;
+        border: 1px solid whitesmoke;
+        border-radius: 5px;
+    }
+
+    .Welcome-Section .Container1 .right-box1 {
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Welcome-Section .Container1 .right-box1 img {
+        height: 100%;
+        width: 85%;
+        margin-top: 0rem;
+    }
+
+    /* Hero Section About */
+
+    .About-Section .Container2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #176271;
+        height: 150vh;
+        width: 150%;
+    }
+
+
+    .About-Section .Container2 .About-top-img {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background-color: #134f5c;
+    }
+
+    .About-Section .Container2 .About-top-img img {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background-color: #134f5c;
+    }
+
+    .About-Section .Container2 .About-top h1 {
+        font-weight: 100;
+        font-size: 3rem;
+        color: gold;
+        padding: 1.5rem;
+    }
+
+    .About-Section .Container2 .About-bottom {
+        width: 100%;
+    }
+
+    .About-Section .Container2 .About-bottom p {
+        text-align: justify;
+        line-height: 22px;
+        font-size: 2rem;
+    }
+
+    .About-Section .Container2 .About-bottom .btn{
+        width: 90%;
+    }
+
+    .Services_section .Container3 {
+        background-color: #134f5c;
+        height: 210vh;
+        width: 150%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
+
+    }
+
+    .Services_section .Container3 .Service-section-top h1 {
+        font-weight: 100;
+        font-size: 3rem;
+        color: gold;
+        margin-top: 15rem;
+    }
+
+    .Services_section .Container3 .Service-section-bottom {
+        height: 160vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Services_section .Container3 .Service-section-bottom .Service-Box {
+        height: 50vh;
+        width: 90%;
+        border: 1px solid white;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: justify;
+        padding: 1.5rem 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .Services_section .Container3 .Service-section-bottom .Service-Box p {
+        font-weight: 100;
+        font-size: 1.6rem;
+        margin-bottom: 1px;
+    }
+
+
+    .Contact-section .Container4 {
+        height: 150vh;
+        width: 150%;
+        background-color: #0f3d47;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Contact-section .Container4 .Contact-section-top {
+        margin-top: 3rem;
+    }
+
+    .Contact-section .Container4 .Contact-section-top h1 {
+        font-weight: 100;
+        color: gold;
+        margin: 1.7rem;
+        font-size: 3rem;
+
+    }
+
+    .Contact-section .Container4 .Contact-section-bottom {
+        margin: 2rem;
+        border: 1px solid whitesmoke;
+        height: 110vh;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+
+    .Contact-section .Container4 .Contact-section-bottom .left {
+        width: 100%;
+        height: 50%;
+        /* background-color: green; */
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Contact-section .Container4 .Contact-section-bottom .left form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        flex-direction: column;
+        padding: 2rem 5rem;
+        font-size: 1.5rem;
+    }
+
+    .Contact-section .Container4 .Contact-section-bottom .left form input {
+        padding: .7rem 1rem;
+        border-radius: 5px;
+        border: none;
+        margin: .7rem 0rem;
+        color: black;
+    }
+
+    .Contact-section .Container4 .Contact-section-bottom .left form textarea {
+        border-radius: 5px;
+        margin: .7rem 0rem;
+        height: 60px;
+    }
+
+    .Contact-section .Container4 .Contact-section-bottom .right {
+        width: 100%;
+        height: 50%;
+        /* background-color: yellow; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .Contact-section .Container4 .Contact-section-bottom .right img {
+        height: 85%;
+        width: 90%;
+        border-radius: 10px;
+    }
+
+    .Footer-section {
+        width: 150%;
+    }
+
+
+}
+
+@media only screen and (max-width: 320px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 9.5rem;
+        flex-direction: column;
+        background-color: #222;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-link {
+        color: #fff;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 1.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+
+    .Welcome-Section .Container1 {
+        background-color: #1c7386;
+        height: 150vh;
+        width: 150%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .Welcome-Section .Container1 .left-box1 {
+        text-align: justify;
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        flex-direction: column;
+        height: 80vh;
+        width: 100%;
+        padding-top: 22rem;
+        padding-left: 2.2rem;
+        padding-right: 2.2rem;
+        padding-bottom: 10rem;
+    }
+
+
+    .Welcome-Section .Container1 .left-box1 .typer {
+        color: gold;
+        font-size: 2.8rem;
+        display: inline-block;
+
+    }
+
+    .Welcome-Section .Container1 .left-box1 h5 {
+        font-weight: 200;
+        display: inline-block;
+        font-size: 2.8rem;
+        color: white;
+    }
+
+    .Welcome-Section .Container1 .left-box1 p {
+        margin-top: 1.1rem;
+        line-height: 20px;
+        font-size: 1.7rem;
+        color: white;
+        width: 100%;
+        padding: 0;
+    }
+
+    .btn {
+        margin: 1.1rem 0rem;
+        width: 100%;
+        padding: .9rem .9rem;
+        background: transparent;
+        border: 1px solid whitesmoke;
+        border-radius: 5px;
+    }
+
+    .Welcome-Section .Container1 .right-box1 {
+        width: 100%;
+        height: 60vh;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: none;
+    }
+
+    .Welcome-Section .Container1 .right-box1 img {
+        height: 100%;
+        width: 95%;
+        margin-top: 0rem;
+    }
+
+    /* Hero Section About */
+
+    .About-Section .Container2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #176271;
+        height: 205vh;
+        width: 150%;
+    }
+
+    .About-Section .Container2 .About-top-img img {
+        margin-top: 0rem;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+    }
+
+    .About-Section .Container2 .About-top h1 {
+        font-weight: 100;
+        font-size: 3rem;
+        color: gold;
+        padding: 1.5rem;
+    }
+
+    .About-Section .Container2 .About-bottom {
+        width: 100%;
+    }
+
+    .About-Section .Container2 .About-bottom p {
+        text-align: justify;
+        line-height: 23px;
+        font-size: 2rem;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    .Services_section .Container3 {
+        background-color: #134f5c;
+        height: 200vh;
+        width: 150%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
+
+    }
+
+    .Services_section .Container3 .Service-section-top h1 {
+        font-weight: 100;
+        font-size: 3rem;
+        color: gold;
+        margin-top: 13rem;
+    }
+
+    .Services_section .Container3 .Service-section-bottom {
+        height: 150vh;
+        width: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Services_section .Container3 .Service-section-bottom .Service-Box {
+        height: 50vh;
+        width: 90%;
+        border: 1px solid white;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: justify;
+        padding: 1.5rem 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .Services_section .Container3 .Service-section-bottom .Service-Box p {
+        font-weight: 100;
+        font-size: 1.6rem;
+        margin-bottom: 1px;
+        color: white;
+        line-height: 22px;
+        width: 100%;
+    }
+
+
+    .Contact-section .Container4 {
+        height: 130vh;
+        width: 150%;
+        background-color: #0f3d47;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Contact-section .Container4 .Contact-section-top {
+        margin-top: 3rem;
+    }
+
+    .Contact-section .Container4 .Contact-section-top h1 {
+        font-weight: 100;
+        color: gold;
+        margin: 1.7rem;
+        font-size: 3rem;
+
+    }
+
+    .Contact-section .Container4 .Contact-section-bottom {
+        margin: 2rem;
+        border: 1px solid whitesmoke;
+        height: 110vh;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+
+    .Contact-section .Container4 .Contact-section-bottom .left {
+        width: 100%;
+        height: 50%;
+        /* background-color: green; */
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Contact-section .Container4 .Contact-section-bottom .left form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        flex-direction: column;
+        padding: 2rem 2rem;
+        font-size: 1.5rem;
+    }
+
+    .Contact-section .Container4 .Contact-section-bottom .left form input {
+        padding: .7rem 1rem;
+        border-radius: 5px;
+        border: none;
+        margin: .7rem 0rem;
+        color: black;
+    }
+
+    .Contact-section .Container4 .Contact-section-bottom .left form textarea {
+        border-radius: 5px;
+        margin: .7rem 0rem;
+        height: 60px;
+    }
+
+    .Contact-section .Container4 .Contact-section-bottom .right {
+        width: 100%;
+        height: 50%;
+        /* background-color: yellow; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .Contact-section .Container4 .Contact-section-top {
+        margin-top: 10rem;
+    }
+
+    .Contact-section .Container4 .Contact-section-bottom .right img {
+        height: 85%;
+        width: 90%;
+        border-radius: 10px;
+    }
+
+    .Footer-section {
+        width: 150%;
+    }
+
+
+    .Footer-section .Media-Links {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Footer-section .Media-Links a {
+        text-decoration: none;
+    }
+
+    .Footer-section .Media-Links a i {
+        font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+        font-weight: 100;
+        justify-content: center;
+        border: 1px solid whitesmoke;
+        border-radius: 50%;
+        margin: 22px;
+        color: whitesmoke;
+        width: 30px;
+        height: 30px;
+    }
+
+    .Footer-section .Media-Links a i:hover {
+        color: gold;
+    }
+
+
+    .Footer-section .Quick-Action-section ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .Footer-section .Quick-Action-section ul li a {
+        margin-left: 10px;
+    }
+
+    .Footer-section .CopyRight-Section p {
+        /* background-color: red; */
+        height: 70px;
+        width: 100%;
+        font-size: 1.3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+

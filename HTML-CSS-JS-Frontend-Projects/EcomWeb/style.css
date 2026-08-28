@@ -1,0 +1,1123 @@
+/* css to reset all the designs */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* css to reset all the designs */
+
+/* add styles on elements */
+
+.header {
+    background-color: #000000;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding-right: 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 1.5rem 1.5rem; */
+}
+
+.nav-logo {
+    height: 90px;
+    width: 280px;
+}
+
+.nav-logo img {
+    height: 89px;
+    width: 280px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    /* margin-left: rem; */
+    margin: 20px;
+}
+
+.nav-link {
+    font-size: 1.6rem;
+    color: whitesmoke;
+    text-transform: capitalize;
+}
+
+.nav-link:hover {
+    color: rgb(104, 104, 102)
+}
+
+.Icons {
+    width: 100px;
+    /* background-color: red; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-left: 4rem;
+    color: whitesmoke;
+}
+
+.Icons span:hover {
+    cursor: pointer;
+    color: rgb(104, 104, 102)
+}
+
+#Home-page {
+    margin-top: 60px;
+    width: 100%;
+    height: 650px;
+}
+
+#Home-page img {
+    width: 100%;
+    height: 650px;
+}
+
+.Welcome-section {
+    height: 230px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/* Extra Utilities */
+.primary-txt {
+    font-size: 28px;
+    margin: 10px;
+    font-weight: bolder;
+}
+
+.primary-para {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.Top-Selling-Products {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: rebeccapurple; */
+}
+
+.Top-Selling-Products .Boxes {
+    height: 350px;
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+.Top-Selling-Products .Boxes .box {
+    height: 310px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+
+.Top-Selling-Products .Boxes .box img {
+    height: 310px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+
+.Top-Selling-Products .Boxes .box img:hover {
+   scale: 1.05;
+   transition: all 1s;
+}
+
+#Home-and-Kitchen {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#Home-and-Kitchen img {
+    width: 100%;
+    height: 650px;
+}
+
+.HOME-AND-KITCHEN {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: rebeccapurple; */
+}
+
+.HOME-AND-KITCHEN .Boxes {
+    margin: 10px;
+    height: 600px;
+    width: 90%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.HOME-AND-KITCHEN .Boxes .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.HOME-AND-KITCHEN .Boxes .top .box {
+    height: 250px;
+    width: 250px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+
+.HOME-AND-KITCHEN .Boxes .top .box img {
+    height: 250px;
+    width: 250px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+
+
+.HOME-AND-KITCHEN .Boxes .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.HOME-AND-KITCHEN .Boxes .bottom .box {
+    height: 250px;
+    width: 250px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.HOME-AND-KITCHEN .Boxes .bottom .box img {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+}
+
+.HEALTH-AND-BEAUTY {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: rebeccapurple; */
+}
+
+#Health-and-Beauty {
+    width: 100%;
+    height: 650px;
+}
+
+#Health-and-Beauty img {
+    width: 100%;
+    height: 650px;
+}
+
+.HEALTH-AND-BEAUTY .Boxes {
+    margin: 10px;
+    height: 600px;
+    width: 90%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.HEALTH-AND-BEAUTY .Boxes {
+    margin: 10px;
+    height: 600px;
+    width: 90%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.HEALTH-AND-BEAUTY .Boxes .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.HEALTH-AND-BEAUTY .Boxes .top .box {
+    height: 250px;
+    width: 250px;
+    /* border: 1px solid gainsboro; */
+    margin: 20px;
+    border-radius: 10px;
+
+}
+
+.HEALTH-AND-BEAUTY .Boxes .top .box img {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+
+}
+
+
+.HEALTH-AND-BEAUTY .Boxes .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.HEALTH-AND-BEAUTY .Boxes .bottom .box {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.HEALTH-AND-BEAUTY .Boxes .bottom .box img {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+
+}
+
+
+#Electronic-Accessories {
+    width: 100%;
+    height: 650px;
+}
+
+#Electronic-Accessories img {
+    width: 100%;
+    height: 650px;
+}
+
+
+.Electronic-Accessories {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Electronic-Accessories .Boxes {
+    margin: 10px;
+    height: 600px;
+    width: 90%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.Electronic-Accessories .Boxes {
+    margin: 10px;
+    height: 600px;
+    width: 90%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Electronic-Accessories .Boxes .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Electronic-Accessories .Boxes .top .box {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    margin: 20px;
+}
+
+
+.Electronic-Accessories .Boxes .top .box img {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+
+}
+
+
+.Electronic-Accessories .Boxes .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.Electronic-Accessories .Boxes .bottom .box {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    margin: 20px;
+}
+
+
+.Electronic-Accessories .Boxes .bottom .box img {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+
+}
+
+.All-Products {
+    height: 100px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.All-Products button {
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(28, 28, 255);
+    color: whitesmoke;
+    font-weight: 200;
+}
+
+.All-Products button:hover {
+    background-color: rgb(0, 0, 255);
+}
+
+#Footer {
+    height: 300px;
+    width: 100%;
+    background-color: #000000;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+section {
+    width: 90%;
+    height: 300px;
+    /* background-color: red;s */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+section .left {
+    height: 300px;
+    width: 35%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    text-align: left;
+}
+
+section .left img {
+    height: 80px;
+    width: 250px;
+}
+
+section .Mid {
+    height: 300px;
+    width: 25%;
+    /* background-color: green; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    text-align: left;
+
+}
+
+section .Mid a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 13px;
+    font-weight: 100;
+    margin-top: 7px;
+}
+
+section .Mid a:hover {
+    color: gainsboro;
+    cursor: pointer;
+}
+
+section .right {
+    height: 300px;
+    width: 35%;
+    /* background-color: green; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: end;
+    flex-direction: column;
+    padding: 10px;
+    text-align: left;
+}
+
+section .right .primary-para {
+    font-size: 15px;
+    margin-bottom: 45px;
+}
+
+
+section .right .Call{
+    font-size: 15px;
+    margin-bottom: 5px;
+} 
+
+#Whatsapp {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+#Whatsapp img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 8rem;
+        flex-direction: column;
+        /* background-color: #fff; */
+        background-color: #0c0c0c;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-link {
+        color: #fff;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 1.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-logo {
+        height: 90px;
+        width: 280px;
+    }
+
+    .nav-logo img {
+        height: 90px;
+        width: 250px;
+    }
+
+    .Icons {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        gap: 15px;
+        margin-left: 0rem;
+    }
+
+    #Home-page {
+        margin-top: 85px;
+        width: 100%;
+        height: 195px;
+    }
+
+    #Home-page img {
+        height: 195px;
+        width: 100%;
+    }
+
+    .Welcome-section {
+        height: 130px;
+        width: 100%;
+        background-color: whitesmoke;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+
+    /* Extra Utilities */
+    .primary-txt {
+        font-size: 14px;
+        margin: 5px;
+        font-weight: bolder;
+    }
+
+    .primary-para {
+        font-size: 9px;
+        font-weight: 100;
+
+    }
+
+    .Top-Selling-Products {
+        height: 1200px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* background-color: rebeccapurple; */
+        background-color: whitesmoke;
+    }
+
+    .Top-Selling-Products .Boxes {
+        height: 1100px;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        border: 1PX solid black;
+        margin: 10px;
+        border-radius: 5px;
+    }
+
+    .Top-Selling-Products .Boxes .box {
+        height: 340px;
+        width: 320px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid gainsboro;
+        border-radius: 10px;
+        /* border: 1px solid black; */
+        /* margin-bottom: 10px; */
+    }
+
+    .Top-Selling-Products .Boxes .box img {
+        height: 340px;
+        width: 320px;
+    }
+
+
+    #Home-and-Kitchen {
+        width: 100%;
+        height: 220px;
+    }
+
+    #Home-and-Kitchen img {
+        width: 100%;
+        height: 220px;
+    }
+
+    .HOME-AND-KITCHEN {
+        height: 850px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* background-color: rebeccapurple; */
+    }
+
+    .HOME-AND-KITCHEN .Boxes {
+        margin: 0px;
+        height: 700px;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        border: 1px solid black;
+        margin: 10px;
+        border-radius: 5px;
+
+    }
+
+    .HOME-AND-KITCHEN .Boxes .top {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+    }
+
+    .HOME-AND-KITCHEN .Boxes .top .box {
+        height: 150px;
+        width: 150px;
+        border: 1px solid gainsboro;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    .HOME-AND-KITCHEN .Boxes .top .box img {
+        height: 150px;
+        width: 150px;
+        border: 1px solid gainsboro;
+        border-radius: 10px;
+    }
+
+
+    .HOME-AND-KITCHEN .Boxes .bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+    }
+
+    .HOME-AND-KITCHEN .Boxes .bottom .box {
+        height: 150px;
+        width: 150px;
+        border: 1px solid gainsboro;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .HOME-AND-KITCHEN .Boxes .bottom .box img {
+        height: 150px;
+        width: 150px;
+        border: 1px solid gainsboro;
+        border-radius: 10px;
+    }
+
+    .HEALTH-AND-BEAUTY {
+        height: 800px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* background-color: rebeccapurple; */
+    }
+
+
+    /* ---------------------------------- */
+
+    #Health-and-Beauty {
+        width: 100%;
+        height: 220px;
+    }
+
+    #Health-and-Beauty img {
+        width: 100%;
+        height: 220px;
+    }
+
+    .HEALTH-AND-BEAUTY {
+        height: 850px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* background-color: rebeccapurple; */
+    }
+
+    .HEALTH-AND-BEAUTY .Boxes {
+        margin: 0px;
+        height: 700px;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        border: 1px solid black;
+        margin: 10px;
+        border-radius: 5px;
+
+    }
+
+    .HEALTH-AND-BEAUTY .Boxes .top {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+    }
+
+    .HEALTH-AND-BEAUTY .Boxes .top .box {
+        height: 150px;
+        width: 150px;
+        border: 1px solid gainsboro;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    .HEALTH-AND-BEAUTY .Boxes .top .box img {
+        height: 150px;
+        width: 150px;
+        border: 1px solid gainsboro;
+        border-radius: 10px;
+    }
+
+
+    .HEALTH-AND-BEAUTY .Boxes .bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+    }
+
+    .HEALTH-AND-BEAUTY .Boxes .bottom .box {
+        height: 150px;
+        width: 150px;
+        border: 1px solid gainsboro;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .HEALTH-AND-BEAUTY .Boxes .bottom .box img {
+        height: 150px;
+        width: 150px;
+        border: 1px solid gainsboro;
+        border-radius: 10px;
+    }
+
+    .HEALTH-AND-BEAUTY {
+        height: 800px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* background-color: rebeccapurple; */
+    }
+
+    /* ---------------------------------- */
+
+    #Electronic-Accessories {
+        width: 100%;
+        height: 220px;
+    }
+
+    #Electronic-Accessories img {
+        width: 100%;
+        height: 220px;
+    }
+
+    .Electronic-Accessories {
+        height: 850px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* background-color: rebeccapurple; */
+    }
+
+    .Electronic-Accessories .Boxes {
+        margin: 0px;
+        height: 700px;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        border: 1px solid black;
+        margin: 10px;
+        border-radius: 5px;
+
+    }
+
+    .Electronic-Accessories .Boxes .top {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+    }
+
+    .Electronic-Accessories .Boxes .top .box {
+        height: 150px;
+        width: 150px;
+        border: 1px solid gainsboro;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    .Electronic-Accessories .Boxes .top .box img {
+        height: 150px;
+        width: 150px;
+        border: 1px solid gainsboro;
+        border-radius: 10px;
+    }
+
+
+    .Electronic-Accessories .Boxes .bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+    }
+
+    .Electronic-Accessories .Boxes .bottom .box {
+        height: 150px;
+        width: 150px;
+        border: 1px solid gainsboro;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .Electronic-Accessories .Boxes .bottom .box img {
+        height: 150px;
+        width: 150px;
+        border: 1px solid gainsboro;
+        border-radius: 10px;
+    }
+
+    .Electronic-Accessories {
+        height: 800px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* background-color: rebeccapurple; */
+    }
+
+
+    .All-Products {
+        height: 50px;
+        width: 100%;
+    }
+
+    .All-Products button {
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        background-color: rgb(28, 28, 255);
+        color: whitesmoke;
+        font-weight: 200;
+        font-size: 10px;
+    }
+
+
+    #Footer {
+        height:270px;
+        width: 100%;
+        /* background-color: #000000; */
+        color: whitesmoke;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    span {
+        color: white;
+    }
+
+    section {
+        width: 100%;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+
+    }
+
+    section .left {
+        height: 110px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 30px;
+        text-align: left;
+        color: whitesmoke;
+        border-bottom: 1px solid whitesmoke;
+    }
+
+    section .left img {
+        height: 50px;
+        width: 130px;
+    }
+
+    section .Mid {
+        height: 110px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 30px;
+        text-align: left;
+        color: whitesmoke;
+        border-bottom: 1px solid whitesmoke;
+
+    }
+
+    section .Mid .heading h1 {
+        font-size: 14px;
+        margin: 5px;
+    }
+
+    section .Mid a {
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 10px;
+        font-weight: 100;
+        margin: 1px;
+    }
+
+    section .right {
+        height: 70px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        text-align: justify;
+        color: whitesmoke;
+
+    }
+
+    section .right .primary-para {
+        font-size: 12px;
+        margin-bottom: 0px;
+
+    }
+
+    section .right .Call{
+        font-size: 8px;
+        margin-bottom: 5px;
+    } 
+
+    #Whatsapp {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        position: fixed;
+        right: 30px;
+        bottom: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #Whatsapp img {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+   
+}
+
+/* add styles on elements */

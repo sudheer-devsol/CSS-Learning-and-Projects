@@ -1,0 +1,263 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif
+}
+body{
+    background:cornsilk;
+    color: whitesmoke;
+    height: 100%;
+    width: 100%;
+}
+.nav-bar{
+    width: 100%;
+    height: 60px;
+    background:rgb(7, 30,35);
+    /* background: chocolate; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bar h3{
+    color: whitesmoke;
+    margin-left: 40px;
+    font-size: 28px;
+    /* border: 1px solid whitesmoke; */
+    padding: 4px 8px;
+    border-radius: 10px;
+}
+.nav-bar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.nav-bar ul li:hover{
+    color:beige;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+.main-menu{
+    margin-right: 30px;
+}
+.menubtn, .closebtn{
+    font-size: 28px;
+    margin: 0px 20px;
+    display: none;
+}
+.contaner{
+    /* margin-bottom: 2px; */
+    display: flex;
+}
+.left{
+    height: 60vh;
+    width: 100%;
+}
+img{
+    /* margin: 50px; */
+    height: 60vh;
+    width: 100%;
+}
+.left1{
+    height: 40vh;
+    width: 100%;
+    background: rgb(231, 230, 230);
+    text-align: center;
+}
+
+
+.left2{
+    text-align: center;
+    height: 70vh;
+    width: 50%;
+    /* background:rgb(186, 42, 42); */
+}
+.right2{
+    text-align: center;
+    height: 70vh;
+    width: 50%;
+    /* background:rgb(159, 45, 45); */
+}
+ h1{
+    margin-top: 40px;
+    color: blue;
+ }
+ h3 {
+    font-size: 25px;
+    margin-top: 0px;
+    color: blue;
+ }
+ pre{
+    margin-top: 30px;
+    font-size: 28px;
+    color: black;
+    
+ }
+ .left3 pre{
+    margin-top: 20px;
+    font-size: 28px;
+    color: black;
+ }
+ .right3 pre{
+    margin-top: 20px;
+    font-size: 28px;
+    color: black;
+ }
+ .left2 img{
+    margin-top: 20px;
+    height: 20vw;
+    width: 30vw;
+ }
+ .right2 img{
+    margin-top: 20px;
+    height: 20vw;
+    width: 30vw;
+ }
+
+ .left3{
+    text-align: center;
+    height: 40vw;
+    width: 100%;
+    /* background-color: rgb(29, 168, 168); */
+
+ }
+ .left3 img{
+    margin-top: 23px;
+    height: 23vw;
+    width: 33vw;
+ }
+ .left3 span{
+    color: rgb(226, 103, 15);
+ }
+
+ .left4{
+    padding-top: 70px;
+    padding-left: 70px;
+    text-align: center;
+    height: 37vw;
+    width: 50%;
+    background: rgb(231, 230, 230);
+ }
+ .right4{
+    padding-top: 70px;
+    padding-right: 70px;
+    text-align: center;
+    height: 37vw;
+    width: 50%;
+    background: rgb(231, 230, 230);
+ }
+ .right4 img{
+    height: 28vw;
+    width: 38vw;
+ }
+ 
+ .left5{
+    padding-top: 70px;
+    padding-left: 40px;
+    text-align: center;
+    height: 37vw;
+    width: 50%;
+    /* background: rgb(181, 11, 11); */
+ }
+ .right5{
+    padding-top: 70px;
+    padding-right: 40px;
+    text-align: center;
+    height: 37vw;
+    width: 50%;
+    /* background: rgb(174, 18, 18); */
+ }
+ .left5 img{
+    height: 10vw;
+    width: 10vw;
+ }
+ 
+ .right5 img{
+    height: 10vw;
+    width: 10vw;
+ }
+
+ .left6{
+    height: 55vh;
+    width: 100%;
+    /* background: rgb(153, 19, 19); */
+    text-align: center;
+}
+
+.left6 img{
+    height: 10vw;
+    width: 10vw;
+ }
+ .left6 h1{
+    margin-top: 20px;
+    color: blue;
+ }
+.footer{
+    text-align: center;
+    background-color: black;
+    padding: 1vw;
+    width: 100%;
+    color: aliceblue;
+}
+.left7{
+    height:20vw;
+    width: 100%;
+}
+.left7 img{
+    /* margin: 50px; */
+    height: 20vw;
+    width: 100%;
+}
+
+/* CSS Media Query */
+
+@media  (max-width: 600px){
+.contaner{
+    flex-direction: column;
+}
+.left1, .left2, .left3 , .left4, .left5 , .left6, .left7 img{
+    width: 100%;
+}
+.left1, .left2, .left3 , .left4, .left5 , .left6, .left7{
+    width: 100%;
+}
+    .main-menu ul{
+        display: none;
+    }
+    .main-menu ul li {
+        display: block;
+        margin: 20px;
+    }
+    .menubtn{
+        display: block;
+        font-size: 22px;  
+    }
+    .nav-bar h3{
+        font-size: 22px;    
+    }
+    #menu{
+        width: 100%;
+        background:rgb(13, 51, 60);
+        position:absolute;
+        top: 60px;
+        right: 0;
+        text-align: center;   
+    }
+    .contaner{
+        display: block;
+        flex-wrap: wrap;
+    }
+    .left{
+        height: 40vw;
+        width: 100%;
+        background: blue;
+    }
+    img{
+        height: 40vw;
+        width: 100%;
+    }
+
+
+}

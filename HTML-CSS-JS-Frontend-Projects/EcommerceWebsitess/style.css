@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto Slab;
+}
+
+#Nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    color: aliceblue;
+    padding: 20px 0px;
+    border-bottom: 1px solid wheat;
+}
+
+#Nav-bar::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#Nav-bar h3:hover {
+    cursor: pointer;
+}
+
+.Logo {
+    margin-left: 20px;
+}
+
+/* Utility Class */
+span {
+    color: rgb(248, 55, 87);
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px ;
+}
+
+#Nav-bar input{
+    border-radius: 3px ;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    margin-right: 20px;
+}
+.primary-txt {
+    font-size: 2.5rem;
+    color: white;
+    padding: 12px 0px;
+
+}
+
+#Home p{
+    color: white;
+    font-size: 1.3rem;
+}
+
+#Home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    position: relative;
+}
+
+#Home::before {
+    content: "";
+    background: url("HomeImg.jpg") no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+#Home .btn{
+   padding: 10px 25px;
+   border: none;
+   border-radius: 5px; 
+   background-color:rgb(202, 35, 63);
+   cursor: pointer;
+}
+
+/* Catogories Section */
+#Catogories{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Catogories .box{
+    padding: 20px 25px;
+    margin: 10px 5px;
+    background-color: rgb(173, 172, 172);
+    border-radius: 20px;
+    text-align: justify;
+}
+
+#Catogories .box img{
+    width: 250px;
+    height: 160px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
